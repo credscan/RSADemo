@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -13,7 +14,8 @@ namespace WebAppWithCreds
     public class Program
     {
         // For detection capability demo only.
-        private static string StorageAccountKey { get; set; } = "AccountName=credscanrsademo;AccountKey=abcdefghijklmnopqrstuvwxyz0123456789++ABCDEabcdefghijklmnopqrstuvwxyz0123456789++ABCDF==;EndpointSuffix=core.windows.net;";
+        private static string StorageAccountKey { get; set; } = 
+            "AccountName=credscanrsademo;AccountKey=abcdefghijklmnopqrstuvwxyz0123456789++ABCDEabcdefghijklmnopqrstuvwxyz0123456789++ABCDF==;EndpointSuffix=core.windows.net;";
 
         public static void Main(string[] args)
         {
